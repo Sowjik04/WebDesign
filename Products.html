@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Products page</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/myStyle.css" />
+    <meta name="viewport" content="width=device-width,intial-scale=1.0" />
+    <style>
+      table {
+        width: 70%;
+        text-align: center;
+      }
+      th {
+        background-color: brown;
+        color: azure;
+      }
+      td {
+        background-color: grey;
+        color: aqua;
+      }
+      #tbl {
+        background-color: aqua;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <ul id="menu">
+      <a href="index.html"> <li>Home</li> </a>
+      <a href="about.html"> <li>About</li></a>
+      <a href="products.html"><li>Products</li></a>
+      <a href="contacts.html"> <li>Contacts</li></a>
+    </ul>
+    <div class="container">
+      <h1 style="color: #ab4c1a; text-align: center">Our latest products</h1>
+      <p>The list and prices of our Products are below</p>
+      <table border="2">
+        <thead>
+          <tr>
+            <th rowspan="2">ID</th>
+            <th rowspan="2">P_Name</th>
+            <th rowspan="2">Quantity</th>
+            <th colspan="2">Price</th>
+            <th rowspan="2">Image</th>
+          </tr>
+          <tr>
+            <th>Purchase</th>
+            <th>Sale</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>101</td>
+            <td>Apple</td>
+            <td>5000</td>
+            <td>1.25</td>
+            <td>1.78</td>
+            <td>
+              <img src="images/Apple.jpg" />
+            </td>
+          </tr>
+          <tr>
+            <td>102</td>
+            <td id="tbl">Mango</td>
+            <td>450</td>
+            <td>1.45</td>
+            <td>1.50</td>
+            <td><img src="images/Mango.jpg"</td>
+          </tr>
+          <tr>
+            <td>103</td>
+            <td>Papaya</td>
+            <td>150</td>
+            <td>1.25</td>
+            <td>1.50</td>
+            <td><img src="images/Papaya.jpg"</td>
+          </tr>
+          <tr>
+            <td>104</td>
+            <td>Banana</td>
+            <td>550</td>
+            <td>2.25</td>
+            <td>1.60</td>
+            <td><img src="images/Banana.jpg"</td>
+          </tr>
+          <tr>
+            <td>105</td>
+            <td>Blueberry</td>
+            <td>1550</td>
+            <td>2.45</td>
+            <td>2.50</td>
+            <td><img src="images/Blueberry.jpg"</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer>
+      <p style="text-align: center">&copy;Premium WebDesign 2021</p>
+    </footer>
+  </body>
+</html>
